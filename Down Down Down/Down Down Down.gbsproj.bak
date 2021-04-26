@@ -1,5 +1,5 @@
 {
-    "name": "Down, Down, Down",
+    "name": "Down Down Down",
     "author": "Gil",
     "_version": "2.0.0",
     "_release": "3",
@@ -17678,14 +17678,6 @@
             "settings": {},
             "inode": "6192449489017457",
             "_v": 1619414548331
-        },
-        {
-            "id": "453479c4-aad9-4f4b-a198-7d1ab699602c",
-            "name": "storyddd.AutoSave.20210426.062608.mod",
-            "filename": "storyddd.mod.AutoSave.20210426.062608.mod",
-            "settings": {},
-            "inode": "58265320179175311",
-            "_v": 1619414773942
         }
     ],
     "variables": [
