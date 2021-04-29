@@ -7,7 +7,7 @@ Made with [GBStudio](https://twitter.com/GBStudioDev).
 
 ### How to play:
 - WASD/Arrow Keys: Move
-- Z/J: A
-- X/K: B
+- Z/J/Alt: A
+- X/K/Ctrl: B
 - Enter: Start
 - Shift: Select
