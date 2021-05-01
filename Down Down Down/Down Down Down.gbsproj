@@ -1860,7 +1860,8 @@
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
                         "musicId": "0a64421a-6059-4a25-b50a-414317b082b7",
-                        "loop": false
+                        "loop": true,
+                        "__collapse": false
                     }
                 },
                 {
@@ -1985,8 +1986,6 @@
                 15,
                 15,
                 15,
-                0,
-                0,
                 15,
                 15,
                 15,
@@ -2003,8 +2002,6 @@
                 15,
                 15,
                 15,
-                0,
-                0,
                 15,
                 15,
                 15,
@@ -2012,36 +2009,8 @@
                 15,
                 15,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
+                15,
                 15,
                 15,
                 0,
@@ -2075,37 +2044,6 @@
                 0,
                 0,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 15,
                 0,
                 0,
@@ -2137,40 +2075,7 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
                 0,
                 0,
                 0,
@@ -2330,6 +2235,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -2361,8 +2267,103 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
                 0,
                 0,
                 0,
@@ -2465,8 +2466,6 @@
                 15,
                 15,
                 15,
-                0,
-                0,
                 15,
                 15,
                 15,
@@ -2474,8 +2473,6 @@
                 15,
                 15,
                 15,
-                0,
-                0,
                 15,
                 15,
                 15,
@@ -2483,8 +2480,12 @@
                 15,
                 15,
                 15,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 15,
                 15,
                 15,
@@ -2827,13 +2828,47 @@
                             "children": {
                                 "true": [
                                     {
-                                        "id": "bbbbaf10-614c-4f34-96c3-15510fd1d974",
-                                        "command": "EVENT_TEXT",
+                                        "id": "4e497acf-7521-4a68-b623-f43cc7b970fe",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " It's locked..."
+                                            "actorId": "$self$",
+                                            "direction": "up",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "bbbbaf10-614c-4f34-96c3-15510fd1d974",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " It's locked..."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "f9df9c1b-8ae7-49ca-93f5-844609a45fc0",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "1319a4ea-eca4-4d96-959c-5d6314986fca",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "09a5585d-4078-45d2-b5f3-b4c78adeeb1c",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
@@ -2843,14 +2878,48 @@
                                 ],
                                 "false": [
                                     {
-                                        "id": "0d98b27e-e976-4adb-af40-18f15341f77f",
-                                        "command": "EVENT_TEXT",
+                                        "id": "7be0f801-d6dd-4b46-87d8-66a91f76532c",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " Either the lock\n is too large,\n or the key",
-                                                " is too small."
+                                            "actorId": "$self$",
+                                            "direction": "up",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "0d98b27e-e976-4adb-af40-18f15341f77f",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " Either the lock\n is too large,\n or the key",
+                                                            " is too small."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "e152f6c1-1e82-4768-bfe1-6179321e65bb",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "81ca0f3c-6cc7-45c7-9229-cf0af2e55eb6",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "2b60e943-e823-49e7-bb9f-fb3367f80bda",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
@@ -2867,7 +2936,7 @@
                     ],
                     "id": "1f5d91fb-c2ca-4d3b-82be-7ed821ba81f1",
                     "x": 6,
-                    "y": 2,
+                    "y": 3,
                     "width": 2,
                     "height": 1
                 },
@@ -2876,7 +2945,7 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "cbf5eb45-63df-44e4-ac66-0a6f5b61f80f",
+                            "id": "56d73159-93a4-498c-9b69-91b4e8afb43c",
                             "command": "EVENT_IF_FALSE",
                             "args": {
                                 "variable": "0",
@@ -2885,47 +2954,115 @@
                             "children": {
                                 "true": [
                                     {
-                                        "id": "0d91e130-47f6-4d6a-a276-9b52c603b957",
-                                        "command": "EVENT_TEXT",
+                                        "id": "c4397d42-8bbb-4994-bf8c-26ea3a54e61f",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " It's locked..."
+                                            "actorId": "$self$",
+                                            "direction": "up",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "1c36f91d-a366-4763-8912-b8a0a67e8af8",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " It's locked..."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "acef5422-8136-46a0-b520-46d9579125f2",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "894d359f-cc81-4ae1-ab5e-5e9d57fca2d5",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "b56ef8f3-d27a-46f5-a496-56d5f1e726e2",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "fbef325e-3cbb-4049-8569-81de33a5d04e",
+                                        "id": "b4ca93b4-9e24-466f-b5d5-b3ba17453e12",
                                         "command": "EVENT_END"
                                     }
                                 ],
                                 "false": [
                                     {
-                                        "id": "a56bdb01-896a-448f-9796-3b5d6ecf8d40",
-                                        "command": "EVENT_TEXT",
+                                        "id": "1dd7beb6-dd86-4487-815a-37dadd434026",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " Either the lock\n is too large,\n or the key",
-                                                " is too small."
+                                            "actorId": "$self$",
+                                            "direction": "up",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "93c2c291-8b38-4d70-af23-33298f9129c4",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " Either the lock\n is too large,\n or the key",
+                                                            " is too small."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "ddb6974e-b3e0-4402-afb3-29f12cdc349d",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "afa09614-d960-4778-bfe9-2ccbcfdb309d",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "fd18780e-7632-4ebc-b92d-984ede1d890a",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "ebc5c56a-5b3a-4904-bd11-f590da0a280c",
+                                        "id": "3e8b4692-12cb-4215-9b8f-83e3fa94f0c9",
                                         "command": "EVENT_END"
                                     }
                                 ]
                             }
                         },
                         {
-                            "id": "ee2297d3-0178-4964-a8c9-e63b66f827d8",
+                            "id": "090f9866-36c8-420e-a3ff-efc5ee358776",
                             "command": "EVENT_END"
                         }
                     ],
                     "id": "9cd5b3a6-d5c9-4ab5-a11f-58b56ce6a6ef",
                     "x": 24,
-                    "y": 2,
+                    "y": 3,
                     "width": 2,
                     "height": 1
                 },
@@ -2934,7 +3071,7 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "f276e31b-eba2-4963-88b0-4b1969c73ecc",
+                            "id": "fe330d38-d638-4416-929c-1c31ff875917",
                             "command": "EVENT_IF_FALSE",
                             "args": {
                                 "variable": "0",
@@ -2943,47 +3080,115 @@
                             "children": {
                                 "true": [
                                     {
-                                        "id": "6285eb30-d759-4a90-b1cd-e0bfec12ca60",
-                                        "command": "EVENT_TEXT",
+                                        "id": "8e631759-241d-4cd8-b9dd-755c8b1f9e09",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " It's locked..."
+                                            "actorId": "$self$",
+                                            "direction": "down",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "55731d0e-542f-418d-8f8c-a418a6099784",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " It's locked..."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "fba3556d-5f63-420c-a8d7-ca5be1e94aff",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "3adcce79-3d33-4936-97da-999e05160a46",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "fe938706-2f99-48df-ada5-9cba4e593bff",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "23bc9de0-0a60-4304-b32d-663ef0ea1bab",
+                                        "id": "c65a7afe-1dde-4f24-965d-cb847c19eda8",
                                         "command": "EVENT_END"
                                     }
                                 ],
                                 "false": [
                                     {
-                                        "id": "79ff7b49-f767-47b4-bd17-ac083e70dd23",
-                                        "command": "EVENT_TEXT",
+                                        "id": "1352ea82-4b0d-4ace-8476-8b7c54dc442c",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " Either the lock\n is too large,\n or the key",
-                                                " is too small."
+                                            "actorId": "$self$",
+                                            "direction": "down",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "cc40e35f-ae0d-4bd9-bc30-492a8745dd63",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " Either the lock\n is too large,\n or the key",
+                                                            " is too small."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "9d9bb257-9b18-4ea2-83b0-7cd577d610d9",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "fa2c2b83-9116-43c9-a490-214df99030f7",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "4ee0f64d-bd11-4806-8d00-637dbb6cad2b",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "c6109223-736a-4129-98d6-b644dca80f6a",
+                                        "id": "c7cb7fe1-1ff7-4d0e-9397-6d66485e631c",
                                         "command": "EVENT_END"
                                     }
                                 ]
                             }
                         },
                         {
-                            "id": "994ad767-ec23-4206-8f81-6549e0a6037c",
+                            "id": "dda2114c-5c52-44ce-958f-189155b7656a",
                             "command": "EVENT_END"
                         }
                     ],
                     "id": "ef59a494-51b1-4708-8ccf-96b4a2e1f444",
                     "x": 6,
-                    "y": 17,
+                    "y": 16,
                     "width": 2,
                     "height": 1
                 },
@@ -2992,7 +3197,7 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "a99a78c7-e055-459e-b557-f020e9c9fe92",
+                            "id": "47253105-eb2a-40c7-a471-c24ac4efabc4",
                             "command": "EVENT_IF_FALSE",
                             "args": {
                                 "variable": "0",
@@ -3001,47 +3206,115 @@
                             "children": {
                                 "true": [
                                     {
-                                        "id": "366ab08e-c998-42bc-8470-e58fa8e057f6",
-                                        "command": "EVENT_TEXT",
+                                        "id": "77d46ecf-ceca-46e3-bc17-3c6b9752e685",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " It's locked..."
+                                            "actorId": "$self$",
+                                            "direction": "down",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "adb524ce-45d0-4d8b-bb00-b3371d184e26",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " It's locked..."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "a5c551a1-28bd-4553-9308-89845bc1fd57",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "53230ad6-67c6-44c8-923a-9ddaf52620a6",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "2b222bf7-3bf8-4562-acbe-8f68ad6a59c5",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "60a799e6-4375-4180-b349-8b59c6448dbe",
+                                        "id": "cd6aa21d-f867-4f87-aa02-c9ee381fc02e",
                                         "command": "EVENT_END"
                                     }
                                 ],
                                 "false": [
                                     {
-                                        "id": "961032eb-518c-478f-8a5a-d09e483af3e6",
-                                        "command": "EVENT_TEXT",
+                                        "id": "5f496f61-3ddc-4cfe-b2c0-dfeb37abdf77",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " Either the lock\n is too large,\n or the key",
-                                                " is too small."
+                                            "actorId": "$self$",
+                                            "direction": "down",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "4d9af9a3-d24d-4638-9171-94f576b6a157",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " Either the lock\n is too large,\n or the key",
+                                                            " is too small."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "08266214-f94f-4031-ad2f-81a69b5d2895",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "2ab5d324-a35e-46c3-9773-957b22a7e120",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "396182e1-e74a-4f32-9c68-667d083d00df",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "405607eb-a3e2-4f8d-a130-439362fca82e",
+                                        "id": "d43df143-3c38-45f0-b4f6-d376c9e8f4f0",
                                         "command": "EVENT_END"
                                     }
                                 ]
                             }
                         },
                         {
-                            "id": "60329172-bdba-492f-a1c4-9ea3afcbfeba",
+                            "id": "2b90de8e-bfa9-4141-9021-91f881c49c82",
                             "command": "EVENT_END"
                         }
                     ],
                     "id": "09d80628-45eb-4371-b59b-0792c5942dce",
                     "x": 15,
-                    "y": 17,
+                    "y": 16,
                     "width": 2,
                     "height": 1
                 },
@@ -3050,7 +3323,7 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "0fa57f77-6a72-4c13-850f-26aab0c58af3",
+                            "id": "c4e53b70-164a-4964-bf0d-e444551f305a",
                             "command": "EVENT_IF_FALSE",
                             "args": {
                                 "variable": "0",
@@ -3059,47 +3332,115 @@
                             "children": {
                                 "true": [
                                     {
-                                        "id": "5c9e2b30-cd75-4423-b1da-e334df99750e",
-                                        "command": "EVENT_TEXT",
+                                        "id": "23459555-c0b9-4a0e-a50f-cc9c8304acd6",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " It's locked..."
+                                            "actorId": "$self$",
+                                            "direction": "down",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "ac11ef53-5867-4ce2-b7ce-ea13bd3b3600",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " It's locked..."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "447f6751-9cc3-4b39-8c57-71cbe3951a13",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "1b850316-ef72-4631-9334-14481d911423",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "c8f12c93-bbdf-45f6-857c-c9dc1bc548da",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "3ab0925c-e6ec-4d0f-ae0c-122a3fee8778",
+                                        "id": "05372a5b-ddac-4b05-83a4-cbedde1dd18f",
                                         "command": "EVENT_END"
                                     }
                                 ],
                                 "false": [
                                     {
-                                        "id": "a191e8df-c5d1-47f6-83e2-7d237f3aef26",
-                                        "command": "EVENT_TEXT",
+                                        "id": "027063d1-9b1b-4630-a2e1-4a9db0004038",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " Either the lock\n is too large,\n or the key",
-                                                " is too small."
+                                            "actorId": "$self$",
+                                            "direction": "down",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "d31484dc-746d-49c7-9683-d945dd46bd88",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " Either the lock\n is too large,\n or the key",
+                                                            " is too small."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "f34089ea-c604-45b3-ad4e-f7e06323f595",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "bee54a8e-0086-40d3-abf2-ff32c40fc3c2",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "324384e5-b804-4248-b994-bdfdef5d26a8",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "7980aee8-93ac-474d-b38e-716b73bf6002",
+                                        "id": "e620ac88-6ad3-4e8e-be96-4be4091ef3c3",
                                         "command": "EVENT_END"
                                     }
                                 ]
                             }
                         },
                         {
-                            "id": "69988c0d-ccba-4ccc-a0ce-b982c251eec0",
+                            "id": "0ec4c8b6-f0c5-43a8-a572-2002d527e3d0",
                             "command": "EVENT_END"
                         }
                     ],
                     "id": "8d4f62c4-1bd9-4af4-a73d-16c74a884848",
                     "x": 24,
-                    "y": 17,
+                    "y": 16,
                     "width": 2,
                     "height": 1
                 },
@@ -3108,7 +3449,7 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "75563e5c-b40a-40a9-89b6-e5ee00a04162",
+                            "id": "833f321e-df4e-4315-8d01-08cb001cd6a8",
                             "command": "EVENT_IF_FALSE",
                             "args": {
                                 "variable": "0",
@@ -3117,46 +3458,114 @@
                             "children": {
                                 "true": [
                                     {
-                                        "id": "544487ac-fd05-4745-8704-ce0a7bdc3f30",
-                                        "command": "EVENT_TEXT",
+                                        "id": "39d03ef0-eee4-44e2-a600-5516c3944491",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " It's locked..."
+                                            "actorId": "$self$",
+                                            "direction": "right",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "e1eaa6ef-9243-42d0-861c-3274fda14109",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " It's locked..."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "20edc9e9-eb29-4dee-8134-0466b7ea10c9",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "6bd42576-6941-4173-a600-7d3f3f4edff2",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "fc342449-d5ea-40b6-89bb-b9e0c83a8d6d",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "e76906c9-473a-4434-bc0b-9839e1c238a7",
+                                        "id": "106edfb4-c4c1-403d-a703-f569ffe0056b",
                                         "command": "EVENT_END"
                                     }
                                 ],
                                 "false": [
                                     {
-                                        "id": "32c85024-466b-48f6-8937-539d2b5c3612",
-                                        "command": "EVENT_TEXT",
+                                        "id": "b755cc01-9a39-46d4-b929-599309b06b79",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " Either the lock\n is too large,\n or the key",
-                                                " is too small."
+                                            "actorId": "$self$",
+                                            "direction": "right",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "1ecee6e3-e324-4aca-8074-e09cee456be3",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " Either the lock\n is too large,\n or the key",
+                                                            " is too small."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "3638939a-f901-4186-afc1-5bf62a589043",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "f1fc9f58-311c-4c9c-a3a9-b7c44fde52f7",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "0e8ed958-c0c0-40af-b169-b4aedc221279",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "d3a89a1b-2485-4464-b6ca-930787e45548",
+                                        "id": "4e259fe4-5209-46b8-8c81-c442fbdd5d8c",
                                         "command": "EVENT_END"
                                     }
                                 ]
                             }
                         },
                         {
-                            "id": "218c4709-717e-4552-b21e-1c2a9d12a784",
+                            "id": "405df174-43a8-411d-bd2c-5fd1de958884",
                             "command": "EVENT_END"
                         }
                     ],
                     "id": "b9aa3aa3-152c-44c0-b138-b5aa9b323168",
-                    "x": 31,
+                    "x": 30,
                     "y": 12,
                     "width": 1,
                     "height": 2
@@ -3166,7 +3575,7 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "db7bfbd9-0056-47a8-b002-36678d246865",
+                            "id": "0245edbe-3ea0-490a-95f5-8c0dee44e346",
                             "command": "EVENT_IF_FALSE",
                             "args": {
                                 "variable": "0",
@@ -3175,46 +3584,114 @@
                             "children": {
                                 "true": [
                                     {
-                                        "id": "ef6e6ab5-4d8d-4b03-a5ad-7ab8a961ad53",
-                                        "command": "EVENT_TEXT",
+                                        "id": "3d1521a0-cfd4-4375-ab58-b281783d1b92",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " It's locked..."
+                                            "actorId": "$self$",
+                                            "direction": "right",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "68a4a774-58cf-4e80-ba12-6dbde08bcd5e",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " It's locked..."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "c7d9f477-7aa6-4654-b3e1-c73200db36aa",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "f9896e29-d5ff-4922-9458-06629a207e69",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "a6bb642b-ec1e-4d7b-9d3f-3bff6c57fb2f",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "5a4ac381-c556-4b6a-aecd-6e445a943fa8",
+                                        "id": "a8b9606c-4dad-4d38-a499-b29450efb056",
                                         "command": "EVENT_END"
                                     }
                                 ],
                                 "false": [
                                     {
-                                        "id": "b5e7bb3e-a106-4d0d-ac69-a3d871992d15",
-                                        "command": "EVENT_TEXT",
+                                        "id": "fb209e24-47ca-45af-ba63-cb99f8c8ea31",
+                                        "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                " Either the lock\n is too large,\n or the key",
-                                                " is too small."
+                                            "actorId": "$self$",
+                                            "direction": "right",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "9168941b-71e4-4e99-b567-86eb46268f38",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            " Either the lock\n is too large,\n or the key",
+                                                            " is too small."
+                                                        ],
+                                                        "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "51ffcf83-79f0-439f-850a-124ae3561053",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": 0,
+                                                        "y": 1,
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "15feb2ac-3000-4317-875f-70bba50cf357",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                            "false": [
+                                                {
+                                                    "id": "7a9028b9-2d05-4881-9e2c-89d299cb80cd",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "91b9a766-ab32-4f4b-addb-d46343943cdf",
+                                        "id": "b62395ee-3429-46e2-bd04-e3372eb2fd36",
                                         "command": "EVENT_END"
                                     }
                                 ]
                             }
                         },
                         {
-                            "id": "355e67c8-d2de-439e-b081-3857ef44304f",
+                            "id": "160bd9a8-64fc-4a83-b49b-49d3693586a2",
                             "command": "EVENT_END"
                         }
                     ],
                     "id": "98fc02b7-1b90-499d-afc5-bf67bd677e4e",
-                    "x": 31,
+                    "x": 30,
                     "y": 6,
                     "width": 1,
                     "height": 2
@@ -3232,6 +3709,17 @@
                                     " No need to go\n that way."
                                 ],
                                 "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                            }
+                        },
+                        {
+                            "id": "d46db598-e6fc-41fe-a349-36f9b6f2ad72",
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": 1,
+                                "y": 0,
+                                "moveType": "horizontal",
+                                "useCollisions": false
                             }
                         },
                         {
@@ -9975,30 +10463,6 @@
             "y": 437.3999938964844,
             "actors": [
                 {
-                    "name": "Small Door Under Curtain",
-                    "frame": 1,
-                    "animate": false,
-                    "spriteSheetId": "c737713f-4663-4c1e-93de-06770403f615",
-                    "spriteType": "static",
-                    "direction": "down",
-                    "moveSpeed": "1",
-                    "animSpeed": "3",
-                    "script": [
-                        {
-                            "id": "8223be9a-40df-44d1-a50b-efc6e914d5be",
-                            "command": "EVENT_END"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "c782892d-2961-4ce7-b262-de8dd619cb6e",
-                    "x": 9,
-                    "y": 2
-                },
-                {
                     "name": "DRINK ME Bottle",
                     "frame": 0,
                     "animate": false,
@@ -10088,7 +10552,139 @@
                     "y": 9
                 }
             ],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Little Door",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "0670e6a8-96b8-490f-a5d9-950f6afc437e",
+                            "command": "EVENT_IF_ACTOR_DIRECTION",
+                            "args": {
+                                "actorId": "$self$",
+                                "direction": "up",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "4815b9e4-13db-44af-ac6b-f2243e0b3ab6",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                " It's locked..."
+                                            ],
+                                            "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                                        }
+                                    },
+                                    {
+                                        "id": "ed46c1c6-923d-44e1-85a0-3d97356cf617",
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": 0,
+                                            "y": 1,
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        }
+                                    },
+                                    {
+                                        "id": "5131841a-351b-4c09-bdc7-cf51aac350d9",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "541902f6-1f66-4f11-b394-564552dd9732",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "d94c5f7a-41f9-44e5-ba4f-f0f923a6b4da",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "5b08973b-88af-4e9b-8148-0c4ce2953945",
+                    "x": 9,
+                    "y": 3,
+                    "width": 2,
+                    "height": 1
+                },
+                {
+                    "name": "Left Hall",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "6a3dc484-b5d0-4c7a-989d-243f26a86b1f",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    " No need to go\n this way."
+                                ],
+                                "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                            }
+                        },
+                        {
+                            "id": "5c3f08ec-4d1b-4c84-b6b2-bf07b452e380",
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": 1,
+                                "y": 0,
+                                "moveType": "horizontal",
+                                "useCollisions": false
+                            }
+                        },
+                        {
+                            "id": "4d5b573e-6378-4050-bac1-3d7dce1aae0a",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "c266944a-3e92-489f-84b7-756cd85f672d",
+                    "x": 0,
+                    "y": 3,
+                    "width": 1,
+                    "height": 14
+                },
+                {
+                    "name": "Corridor",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "7cb76c19-c40a-4e38-ba91-77b0f9eb5683",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    " No need to go\n this way."
+                                ],
+                                "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
+                            }
+                        },
+                        {
+                            "id": "2aa36fe6-071d-4379-b04c-71964d3171ba",
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": -1,
+                                "y": 0,
+                                "moveType": "horizontal",
+                                "useCollisions": false
+                            }
+                        },
+                        {
+                            "id": "059c2276-2fdc-434e-bc09-b6d1be8764a1",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "81ee79e0-10d7-4275-8cb8-21eab36fbd5d",
+                    "x": 19,
+                    "y": 3,
+                    "width": 1,
+                    "height": 14
+                }
+            ]
         },
         {
             "name": "Cutscene 4-1",
@@ -14516,7 +15112,12 @@
                             "command": "EVENT_END"
                         }
                     ],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "id": "ff3620da-fe90-46a2-acc1-15badc5aad04",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -14532,13 +15133,36 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "8df22edd-7d58-4182-ad02-d40f6578c42a",
-                            "command": "EVENT_TEXT",
+                            "id": "89147ece-b2c3-4cf2-9873-38b81d11eee3",
+                            "command": "EVENT_IF_ACTOR_DIRECTION",
                             "args": {
-                                "text": [
-                                    "I forgot the\ngolden key!\n"
+                                "actorId": "$self$",
+                                "direction": "left",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "8df22edd-7d58-4182-ad02-d40f6578c42a",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I forgot the\ngolden key!\n"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "398e526c-632b-45c9-86d6-9378c950311e",
+                                        "command": "EVENT_END"
+                                    }
                                 ],
-                                "avatarId": ""
+                                "false": [
+                                    {
+                                        "id": "5514631d-f989-4ea0-b969-478c9b248862",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -16752,7 +17376,7 @@
             "imageHeight": 144,
             "filename": "longlowhalldrinkme.png",
             "inode": "2814749769090999",
-            "_v": 1619903735782
+            "_v": 1619906186283
         },
         {
             "id": "da033c5e-6d17-4599-994a-d203caf76e10",
@@ -16836,7 +17460,7 @@
             "type": "animated",
             "filename": "boxcake.png",
             "inode": "43628621390961094",
-            "_v": 1619903735783
+            "_v": 1619907154125
         },
         {
             "id": "155ce97f-0804-467d-aaec-f21964645d6b",
@@ -17771,9 +18395,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "4da15cb8-fdfa-419a-9508-4cc742856329",
-        "startX": 1,
-        "startY": 1,
+        "startSceneId": "affe5925-5868-4a96-a2b4-fcd657368605",
+        "startX": 0,
+        "startY": 0,
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
