@@ -6,8 +6,8 @@ Based on the book ["Alice's Adventures Under Ground" by Lewis Carroll](http://ww
 Made with [GBStudio](https://twitter.com/GBStudioDev).
 
 ### How to play:
-- WASD/Arrow Keys: Move
-- Z/J/Alt: A
-- X/K/Ctrl: B
-- Enter: Start
+- WASD/Arrow Keys: Move (Move)
+- Z/J/Alt: A (Interact)
+- X/K/Ctrl: B (Cancel/Jump)
+- Enter: Start (Pause Menu)
 - Shift: Select
