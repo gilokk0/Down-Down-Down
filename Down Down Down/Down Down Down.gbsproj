@@ -1875,11 +1875,11 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "This day is\nso hot it makes\nme sleepy!",
-                            "My sister is\nreading a book.\n",
-                            "I just don't\nunderstand...\n",
-                            "What use is\na book without\npictures",
-                            "or\nconversations?\n"
+                            " This day is\n so hot it makes\n me sleepy!",
+                            " My sister is\n reading a book.\n ",
+                            " I just don't\n understand...\n ",
+                            " What use is a\n book without\n pictures or",
+                            " conversations?\n \n "
                         ],
                         "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                     }
@@ -2606,8 +2606,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "I took the key.",
-                                                "Maybe it opens\none of these\ndoors."
+                                                " I took the key.",
+                                                " Maybe it opens\n one of these\n doors."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -2623,7 +2623,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "There's nothing\nelse on the\ntable."
+                                                " There's nothing\n else on the\n table."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -2673,7 +2673,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Let's see what\nis under this\ncurtain."
+                                                " Let's see what\n is under this\n curtain."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -2701,7 +2701,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Oh! A tiny door."
+                                                " Oh! A tiny\n door."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -2726,7 +2726,7 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "It's locked..."
+                                                            " It's locked..."
                                                         ],
                                                         "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                                     }
@@ -2742,7 +2742,7 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "The key fits!"
+                                                            " The key fits!"
                                                         ],
                                                         "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                                     }
@@ -2831,7 +2831,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "It's locked..."
+                                                " It's locked..."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -2847,8 +2847,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Either the lock\nis too large,\nor the key",
-                                                "is too small."
+                                                " Either the lock\n is too large,\n or the key",
+                                                " is too small."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -2889,7 +2889,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "It's locked..."
+                                                " It's locked..."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -2905,8 +2905,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Either the lock\nis too large,\nor the key",
-                                                "is too small."
+                                                " Either the lock\n is too large,\n or the key",
+                                                " is too small."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -2947,7 +2947,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "It's locked..."
+                                                " It's locked..."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -2963,8 +2963,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Either the lock\nis too large,\nor the key",
-                                                "is too small."
+                                                " Either the lock\n is too large,\n or the key",
+                                                " is too small."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -3005,7 +3005,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "It's locked..."
+                                                " It's locked..."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -3021,8 +3021,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Either the lock\nis too large,\nor the key",
-                                                "is too small."
+                                                " Either the lock\n is too large,\n or the key",
+                                                " is too small."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -3063,7 +3063,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "It's locked..."
+                                                " It's locked..."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -3079,8 +3079,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Either the lock\nis too large,\nor the key",
-                                                "is too small."
+                                                " Either the lock\n is too large,\n or the key",
+                                                " is too small."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -3121,7 +3121,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "It's locked..."
+                                                " It's locked..."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -3137,8 +3137,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Either the lock\nis too large,\nor the key",
-                                                "is too small."
+                                                " Either the lock\n is too large,\n or the key",
+                                                " is too small."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -3179,7 +3179,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "It's locked..."
+                                                " It's locked..."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -3195,8 +3195,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Either the lock\nis too large,\nor the key",
-                                                "is too small."
+                                                " Either the lock\n is too large,\n or the key",
+                                                " is too small."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -3228,8 +3228,8 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "This is where I\ncame from.\nNo need to go",
-                                    "that way."
+                                    " This is where I\n just came from.",
+                                    " No need to go\n that way."
                                 ],
                                 "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                             }
@@ -3628,8 +3628,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Dear, Dear! I\nshall be to\nlate!",
-                            "*hop*\n\n"
+                            " Dear, Dear! I\n shall be to\n late!",
+                            " *hop*\n \n "
                         ],
                         "avatarId": "5c4c749b-1980-4931-80f7-240d9d83fc9a"
                     }
@@ -8179,9 +8179,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "No time to\nthink!\n",
-                            "Let's chase the\nrabbit!\n",
-                            "*falls*\n\n"
+                            " No time to\n think!\n ",
+                            " Let's chase\n the rabbit!\n ",
+                            " *falls*\n \n "
                         ],
                         "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                     }
@@ -8622,13 +8622,17 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Kitty will miss\nme very much\ntonight,",
-                            "I should think!\n\n",
-                            "Do cats eat\nbats?\n",
-                            "Do bats eat\ncats?\n",
-                            "Now, Kitty, my\ndear, tell me\nthe truth.",
-                            "Did you ever eat\na bat?\n",
-                            "*thump*\n\n"
+                            " Kitty will miss\n me very much\n tonight,",
+                            " I should think!\n\n",
+                            " Oh, dear Kitty,\n I wish I had\n you here!",
+                            " There are no\n mice in the\n air,",
+                            " I'm afraid,\n but you might\n catch a bat,",
+                            " and that's very\n like a mouse,\n you know?",
+                            " Do cats eat\n bats?\n ",
+                            " Do bats eat\n cats?\n ",
+                            " Now, Kitty, my\n dear, tell me\n the truth.",
+                            " Did you ever\n eat a bat?\n ",
+                            " *thump*\n \n "
                         ],
                         "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                     }
@@ -9039,8 +9043,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Didn't hurt at\nall!\n",
-                            "Now, where is\nthat rabbit?\n"
+                            " Didn't hurt at\n all!\n",
+                            " Now, where is\n that rabbit?\n"
                         ],
                         "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                     }
@@ -9050,8 +9054,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "My ears and\nwhiskers,\n",
-                            "how late it's\ngetting!\n"
+                            " My ears and\n whiskers,\n",
+                            " how late it's\n getting!\n"
                         ],
                         "avatarId": "5c4c749b-1980-4931-80f7-240d9d83fc9a"
                     }
@@ -9482,13 +9486,14 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "How I wish I\ncould get\nthrough...",
-                            "But even if my\nhead would go\nthrough,",
-                            "it would be very\nlittle use\n",
-                            "without my\nshoulders.\n",
-                            "Oh, how I wish I\ncould shut up\n",
-                            "like a\ntelescope!\n",
-                            "I think I could,\nif I only knew\nhow to begin."
+                            " How I wish I\n could get\n through...",
+                            " But even if my\n head would go\n through,",
+                            " it would be\n very little use\n ",
+                            " without my\n shoulders.\n ",
+                            " Oh, how I wish\n I could shut up",
+                            " like a\n telescope!\n",
+                            " I think I\n could, if I\n only knew ",
+                            " how to begin.\n \n "
                         ],
                         "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                     }
@@ -10035,11 +10040,11 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "This wasn't here\nbefore...",
-                                                "Hm, DRINK ME...",
-                                                "Let me just\ncheck\nsomething...",
-                                                "Ok, it's all\ngood. It's\nnot poison.",
-                                                "Bottoms up!"
+                                                " This wasn't\n here before...",
+                                                " Hm, DRINK ME...",
+                                                " Let me just\n check\n something...",
+                                                " Ok, it's all\n good. It's\n not poison.",
+                                                " Bottoms up!"
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -10474,12 +10479,13 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "*glug glug glug\nah*\n",
-                            "Very nice.\nIt's a sort of\nmixed flavour",
-                            "of cherry-tart,\ncustard,\npine-apple,",
-                            "roast turkey,\ntoffy, and hot\nbuttered toast.",
-                            "What a curious\nfeeling!\n",
-                            "I must be\nshutting up like\na telescope."
+                            " *glug glug\n glug ah*\n ",
+                            " Very nice.\n It's a sort of\n mixed flavour",
+                            " of cherry-tart,\n custard,\n pine-apple,",
+                            " roast turkey,\n toffy, and hot\n buttered toast.",
+                            " What a curious\n feeling!\n ",
+                            " I must be\n shutting up\n ",
+                            " like a\n telescope!\n "
                         ],
                         "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                     }
@@ -10502,8 +10508,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "I forgot the\nlittle golden\nkey and there's",
-                            "no way I can\nreach it.\n"
+                            " I forgot the\n little golden\n key on top",
+                            " of the table\n and there's\n no way",
+                            " I can reach\n it now.\n "
                         ],
                         "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                     }
@@ -14467,8 +14474,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Hm, EAT ME...",
-                                                "Maybe it makes\nme big again!"
+                                                " Hm, EAT ME...",
+                                                " Maybe it makes\n me big again!"
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -14653,7 +14660,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "!S0!I...!S3!\n!S0!table...!S2!\nkey..."
+                                                " !S0!I...!S3!\n !S0!table...!S2!\n key..."
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -14749,7 +14756,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "WEEEEEEEE!"
+                                                " WEEEEEEEE!"
                                             ],
                                             "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                                         }
@@ -15170,12 +15177,13 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "*munch munch*\n\n",
-                            "Which way?\nWhich way?\nWill I shrink",
-                            "or will I grow?\n\n",
-                            "Still the same\nsize? Then I'll\neat more cake.",
-                            "*munch munch\nmunch munch\nmunch munch*",
-                            "*burp*\n\n"
+                            " *munch munch*\n\n",
+                            " Which way?\n Which way?\n ",
+                            " Will I shrink\n or will I grow?\n ",
+                            " Still the same\n size?\n ",
+                            " Then I'll eat\n more cake.",
+                            " *munch munch\n munch munch\n munch munch*",
+                            " *burp*\n\n"
                         ],
                         "avatarId": "31ba1f94-f664-486f-8e5e-c75c7fad9f83"
                     }
@@ -16508,7 +16516,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "You have a score\nof $08$$02$$03$\npoints..",
+                                    "You have a score\nof $08$$02$$03$\npoints...",
                                     "But the points\ndon't matter."
                                 ],
                                 "avatarId": ""
@@ -16557,7 +16565,7 @@
             "imageHeight": 144,
             "filename": "credits.png",
             "inode": "508906757892917834",
-            "_v": 1619422649411
+            "_v": 1619903735782
         },
         {
             "id": "a1bcd414-2b16-4834-baa9-8c899732e0a5",
@@ -16568,7 +16576,7 @@
             "imageHeight": 144,
             "filename": "cs1_1.png",
             "inode": "7599824372569481",
-            "_v": 1619422649411
+            "_v": 1619903735782
         },
         {
             "id": "33fe3f46-5467-40ca-8904-cc369132edf6",
@@ -16579,7 +16587,7 @@
             "imageHeight": 144,
             "filename": "cs1_2.png",
             "inode": "3377699722495291",
-            "_v": 1619422649411
+            "_v": 1619903735782
         },
         {
             "id": "e31ff8b0-7b16-4e66-9c1c-4e46b8ce254a",
@@ -16590,7 +16598,7 @@
             "imageHeight": 144,
             "filename": "cs1_3.png",
             "inode": "605452674904626390",
-            "_v": 1619422649411
+            "_v": 1619903735782
         },
         {
             "id": "982463e6-392c-4dde-a7f7-9b37bdf1e434",
@@ -16601,7 +16609,7 @@
             "imageHeight": 144,
             "filename": "cs2_1.png",
             "inode": "157344511981264611",
-            "_v": 1619422649411
+            "_v": 1619903735782
         },
         {
             "id": "c3beef6a-2844-4232-96ca-e7c09a73680f",
@@ -16612,7 +16620,7 @@
             "imageHeight": 144,
             "filename": "cs2_2.png",
             "inode": "10977524091976816",
-            "_v": 1619422649411
+            "_v": 1619903735782
         },
         {
             "id": "4571d9da-6744-40b4-be21-384d008541a1",
@@ -16623,7 +16631,7 @@
             "imageHeight": 144,
             "filename": "cs3_1.png",
             "inode": "187180859512666239",
-            "_v": 1619422649411
+            "_v": 1619903735782
         },
         {
             "id": "7ba6e5a4-b077-4b1c-8bcf-aa7425b6e1e2",
@@ -16634,7 +16642,7 @@
             "imageHeight": 144,
             "filename": "cs4_1.png",
             "inode": "11540474045434841",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "807b7c9d-d789-49d2-85b2-e65a56ad7b2c",
@@ -16645,7 +16653,7 @@
             "imageHeight": 144,
             "filename": "cs5_1.png",
             "inode": "20829148276761823",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "dccfe098-7d04-4259-8f9d-46d6f9ef25c7",
@@ -16656,7 +16664,7 @@
             "imageHeight": 144,
             "filename": "cstemp.png",
             "inode": "10414574139477961",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "4cb43dbd-6182-484e-8244-8691ecd1686b",
@@ -16667,7 +16675,7 @@
             "imageHeight": 144,
             "filename": "hole.png",
             "inode": "1688849862244633",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "609c7a29-0418-4a6b-acf0-092f85c7757b",
@@ -16678,7 +16686,7 @@
             "imageHeight": 144,
             "filename": "hole1.png",
             "inode": "2533274792377958",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "7faaa4f8-cfe1-4995-8c70-055345f4615a",
@@ -16689,7 +16697,7 @@
             "imageHeight": 144,
             "filename": "hole2.png",
             "inode": "7036874419748475",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "5d4a8f0e-6d93-41e5-9489-9bc0b4b4b7a1",
@@ -16700,7 +16708,7 @@
             "imageHeight": 144,
             "filename": "hole3.png",
             "inode": "10696049116987015",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "e529664e-c8aa-460e-9a7a-ed2ef356522f",
@@ -16711,7 +16719,7 @@
             "imageHeight": 144,
             "filename": "hole4.png",
             "inode": "18577348464980859",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "a82a6a2c-53f0-4152-8879-85f8c6d2d4b9",
@@ -16722,7 +16730,7 @@
             "imageHeight": 144,
             "filename": "logo.png",
             "inode": "3096224745783816",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "5c6e53f3-ac7d-4ce5-a8dd-9294f2aa095d",
@@ -16733,7 +16741,7 @@
             "imageHeight": 144,
             "filename": "longlowhall.png",
             "inode": "38562071810091787",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "57973ce8-556b-4be9-9694-684390f4571a",
@@ -16744,7 +16752,7 @@
             "imageHeight": 144,
             "filename": "longlowhalldrinkme.png",
             "inode": "2814749769090999",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "da033c5e-6d17-4599-994a-d203caf76e10",
@@ -16755,7 +16763,7 @@
             "imageHeight": 144,
             "filename": "ludumdaresplash.png",
             "inode": "2533274792362505",
-            "_v": 1619422649413
+            "_v": 1619903735782
         },
         {
             "id": "b11ea335-7d39-43b1-aeab-d5fb09cadbe5",
@@ -16766,7 +16774,7 @@
             "imageHeight": 144,
             "filename": "menu_page.png",
             "inode": "15199648744229666",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "134cc61c-539d-4111-b17d-97df0697e023",
@@ -16777,7 +16785,7 @@
             "imageHeight": 144,
             "filename": "pausemenu.png",
             "inode": "14918173767047741",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "1a39dde0-9263-4ca5-852f-0e79bbc7cef0",
@@ -16788,7 +16796,7 @@
             "imageHeight": 144,
             "filename": "platform.png",
             "inode": "39969446693028799",
-            "_v": 1619422649412
+            "_v": 1619903735782
         },
         {
             "id": "6704885c-2e90-41fc-8611-5a5e7a5fa9c8",
@@ -16799,7 +16807,7 @@
             "imageHeight": 144,
             "filename": "titlescreen.png",
             "inode": "2251799815651845",
-            "_v": 1619422649413
+            "_v": 1619903735782
         }
     ],
     "spriteSheets": [
@@ -16810,7 +16818,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "1407374885485209",
-            "_v": 1619422649412
+            "_v": 1619903735783
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -16819,7 +16827,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "1407374885485217",
-            "_v": 1619422649412
+            "_v": 1619903735783
         },
         {
             "id": "88e3f070-6820-4c89-81d1-593be214dfcb",
@@ -16828,7 +16836,7 @@
             "type": "animated",
             "filename": "boxcake.png",
             "inode": "43628621390961094",
-            "_v": 1619422649412
+            "_v": 1619903735783
         },
         {
             "id": "155ce97f-0804-467d-aaec-f21964645d6b",
@@ -16837,7 +16845,7 @@
             "type": "animated",
             "filename": "checkbox.png",
             "inode": "3096224745797017",
-            "_v": 1619422649412
+            "_v": 1619903735783
         },
         {
             "id": "c737713f-4663-4c1e-93de-06770403f615",
@@ -16846,7 +16854,7 @@
             "type": "actor",
             "filename": "curtain.png",
             "inode": "1970324838941255",
-            "_v": 1619422649412
+            "_v": 1619903735783
         },
         {
             "id": "9949a330-fdb3-43a0-a575-0196a6e25866",
@@ -16855,7 +16863,7 @@
             "type": "animated",
             "filename": "display_numbers.png",
             "inode": "5629499536195227",
-            "_v": 1619422649413
+            "_v": 1619903735783
         },
         {
             "id": "9ea4e469-5555-461d-b729-970fe56e3c6b",
@@ -16864,7 +16872,7 @@
             "type": "animated",
             "filename": "drinkmebottle.png",
             "inode": "131167339147191036",
-            "_v": 1619422649413
+            "_v": 1619903735783
         },
         {
             "id": "85232837-efaf-480c-98fa-5b69165f9229",
@@ -16873,7 +16881,7 @@
             "type": "animated",
             "filename": "key.png",
             "inode": "5348024559469038",
-            "_v": 1619422649413
+            "_v": 1619903735783
         },
         {
             "id": "ef3006ba-7701-4266-b673-85e2d204ece1",
@@ -16882,7 +16890,7 @@
             "type": "static",
             "filename": "menu_cursor.png",
             "inode": "30399297484971693",
-            "_v": 1619422649413
+            "_v": 1619903735783
         },
         {
             "id": "76dec09f-1d3c-4780-a453-723b24733a68",
@@ -16891,7 +16899,7 @@
             "type": "actor_animated",
             "filename": "player.png",
             "inode": "19984723347572355",
-            "_v": 1619422649413
+            "_v": 1619903735783
         },
         {
             "id": "6e3d3598-4c6f-412a-b7a0-5734aff25863",
@@ -16900,7 +16908,7 @@
             "type": "animated",
             "filename": "player_falling.png",
             "inode": "36591746972558771",
-            "_v": 1619422649413
+            "_v": 1619903735783
         },
         {
             "id": "31ba1f94-f664-486f-8e5e-c75c7fad9f83",
@@ -16909,7 +16917,7 @@
             "type": "static",
             "filename": "playeravatar.png",
             "inode": "61643019900383128",
-            "_v": 1619422649413
+            "_v": 1619903735783
         },
         {
             "id": "5c4c749b-1980-4931-80f7-240d9d83fc9a",
@@ -16918,7 +16926,7 @@
             "type": "static",
             "filename": "rabbitavatar.png",
             "inode": "2533274792363625",
-            "_v": 1619422649413
+            "_v": 1619903735783
         },
         {
             "id": "9e5abdc1-31f8-4fb1-af69-fdaf63e9a02c",
@@ -16927,7 +16935,7 @@
             "type": "static",
             "filename": "re.png",
             "inode": "2251799815667759",
-            "_v": 1619422649413
+            "_v": 1619903735783
         },
         {
             "id": "5f64f527-2906-4115-9164-43356ee3203a",
@@ -16936,7 +16944,7 @@
             "type": "static",
             "filename": "sco.png",
             "inode": "4222124652641978",
-            "_v": 1619422649413
+            "_v": 1619903735783
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -16945,7 +16953,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "1407374885485224",
-            "_v": 1619422649413
+            "_v": 1619903735783
         },
         {
             "id": "36946788-b1c9-4df6-94b3-b92774411ac0",
@@ -16954,7 +16962,7 @@
             "type": "animated",
             "filename": "tear.png",
             "inode": "3377699722516074",
-            "_v": 1619422649413
+            "_v": 1619903735783
         },
         {
             "id": "63a29758-8d44-4a8a-ae4b-e0afc99bd762",
@@ -16963,7 +16971,7 @@
             "type": "static",
             "filename": "tear_squash.png",
             "inode": "27584547718384524",
-            "_v": 1619422649413
+            "_v": 1619903735783
         }
     ],
     "palettes": [
@@ -17653,7 +17661,7 @@
             "filename": "downdowndown.mod",
             "settings": {},
             "inode": "371828444234783005",
-            "_v": 1619422649398
+            "_v": 1619903735762
         },
         {
             "id": "7c77b406-40fa-4f2f-a475-b49eb5b41cec",
@@ -17661,7 +17669,7 @@
             "filename": "fallingdown.mod",
             "settings": {},
             "inode": "65865144550357358",
-            "_v": 1619422649398
+            "_v": 1619903735763
         },
         {
             "id": "3886f216-2cf0-4cbe-9772-cd4e6975dec8",
@@ -17669,7 +17677,7 @@
             "filename": "level.mod",
             "settings": {},
             "inode": "3940649676038411",
-            "_v": 1619422649398
+            "_v": 1619903735763
         },
         {
             "id": "0a64421a-6059-4a25-b50a-414317b082b7",
@@ -17677,7 +17685,7 @@
             "filename": "storyddd.mod",
             "settings": {},
             "inode": "6192449489017457",
-            "_v": 1619422649398
+            "_v": 1619903735763
         }
     ],
     "variables": [
@@ -17763,13 +17771,13 @@
         }
     ],
     "settings": {
-        "startSceneId": "affe5925-5868-4a96-a2b4-fcd657368605",
-        "startX": 0,
-        "startY": 0,
+        "startSceneId": "4da15cb8-fdfa-419a-9508-4cc742856329",
+        "startX": 1,
+        "startY": 1,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 533.5999755859375,
-        "worldScrollY": 100,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [
